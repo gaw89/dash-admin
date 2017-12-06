@@ -1,0 +1,11 @@
+<projectname>
++-- run.py
++-- app
+    +-- static
+        +-- css
+        +-- js
+    +-- templates
+    projectname.py
+    server.py
++-- data
+    +-- app_data.db
