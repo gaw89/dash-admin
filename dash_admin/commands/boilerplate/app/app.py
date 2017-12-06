@@ -3,7 +3,7 @@ import os
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
-from server import server
+from .server import server
 
 app = dash.Dash(url_base_pathname='/' + os.environ.get('DASH_PROJECT_NAME') + '/app1', server=server)
 
