@@ -11,7 +11,7 @@ This will give you a working Dash application, complete with user authentication
 
 ```python run.py```
 
-then visit [localhost:8050](http://localhost:8050).
+then visit [localhost:8050/myproject/app1](http://localhost:8050/myproject/app1).
 
 You can log in with username admin and password admin.
 
