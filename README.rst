@@ -17,10 +17,10 @@ You can log in with username admin and password admin.
 
 ### Documentation
 
-Full documentation is available [here](https://gaw89.github.io/dash-admin-docs).
+Currently, this is the only documentation available.
 
 ### Installation
 
-Currently, Dash-Admin can be installed via pip or through cloning this repo and running ```python setup.py install```.  
+Currently, Dash-Admin can be installed by cloning this repo and running ```pip install -e .```.
 
 #### Have fun!
