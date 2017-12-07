@@ -32,11 +32,8 @@ You can log in with username ``admin`` and password ``admin``.
 Installation
 ~~~~~~~~~~~~
 
-Currently, Dash-Admin can be installed by cloning this repo and running
-``pip install -e .``.
-
-Have fun!
-^^^^^^^^^
+Dash-Admin can be installed via ``pip install dash-admin`` or
+by cloning this repo and running ``python setup.py install``.
 
 .. _Dash: https://github.com/plotly/dash
 .. _Django: https://github.com/django/django
