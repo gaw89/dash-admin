@@ -40,7 +40,6 @@ setup(
     url = 'https://github.com/gaw89/dash-admin',
     author = 'Gideon Whitehead',
     author_email = 'gideon.whitehead@uphs.upenn.edu',
-    license = 'MIT',
     classifiers = [
         'Intended Audience :: Developers',
         'Topic :: Utilities',
