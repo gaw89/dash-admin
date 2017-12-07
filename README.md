@@ -21,4 +21,4 @@ You can log in with username ```admin``` and password ```admin```.
 
 ### Installation
 
-Dash-Admin can be installed via ```pip install dash-admin``` or by cloning this repo and running ```python setup.py install```.
+Dash-Admin can be installed via ```pip install dash-admin --process-dependency-links``` or by cloning this repo and running ```python setup.py install```.

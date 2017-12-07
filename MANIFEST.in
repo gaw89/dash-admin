@@ -1,7 +1,1 @@
-include dash_admin/commands/boilerplate/*
-include dash_admin/commands/boilerplate/app/*
-include dash_admin/commands/boilerplate/app/static/*
-include dash_admin/commands/boilerplate/app/static/css/*
-include dash_admin/commands/boilerplate/app/static/js/*
-include dash_admin/commands/boilerplate/app/templates/*
-include dash_admin/commands/boilerplate/data/*
+recursive-include dash_admin/commands/boilerplate *

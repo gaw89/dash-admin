@@ -32,7 +32,7 @@ You can log in with username ``admin`` and password ``admin``.
 Installation
 ~~~~~~~~~~~~
 
-Dash-Admin can be installed via ``pip install dash-admin`` or
+Dash-Admin can be installed via ``pip install dash-admin --process-dependency-links`` or
 by cloning this repo and running ``python setup.py install``.
 
 .. _Dash: https://github.com/plotly/dash
