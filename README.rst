@@ -9,7 +9,7 @@ Dash-Admin is an extension for `Dash`_ to help start new Dash projects.
 
 Dash-Admin is modelled after the ``django-admin`` command in the popular
 Python web framework `Django`_. The goal of dash-admin is to provide a
-simple, easy-to-use CLI tool for staring projects in Dash.
+simple, easy-to-use CLI tool for starting projects in Dash.
 
 Documentation
 ~~~~~~~~~~~~~
@@ -32,8 +32,15 @@ You can log in with username ``admin`` and password ``admin``.
 Installation
 ~~~~~~~~~~~~
 
-Dash-Admin can be installed via ``pip install dash-admin --process-dependency-links`` or
-by cloning this repo and running ``python setup.py install``.
+Dash-Admin can be installed via ``pip install dash-admin`` or by cloning
+this repo and running ``python setup.py install``.
+
+Note:
+^^^^^
+
+You will also need to run
+``pip install https://github.com/gaw89/dash-auth/tarball/master#egg=dash-auth-0.1.0``
+in order to provide user authentication.
 
 .. _Dash: https://github.com/plotly/dash
 .. _Django: https://github.com/django/django

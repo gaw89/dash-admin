@@ -52,8 +52,7 @@ setup(
     ],
     keywords = 'cli',
     packages = find_packages(exclude=['docs', 'tests*']),
-    install_requires = ['docopt', 'dash-auth==0.1.0'],
-    dependency_links = ['https://github.com/gaw89/dash-auth/tarball/master#egg=dash-auth-0.1.0'],
+    install_requires = ['docopt'],
     include_package_data = True,
     extras_require = {
         'test': ['coverage', 'pytest', 'pytest-cov'],

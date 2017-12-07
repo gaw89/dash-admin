@@ -2,6 +2,7 @@ import os
 from .base import Base
 from distutils.dir_util import copy_tree
 import sqlite3
+import warnings
 
 MODULE_FOLDER = os.path.dirname(os.path.abspath(__file__))
 
@@ -23,6 +24,12 @@ class StartProject(Base):
     """Start a Dash project!"""
 
     def run(self):
+        try:
+            from dash_auth import FlaskLoginAuth
+        except ImportError:
+            warnings.warn('\n\n\nThis package relies on an unpublished version of dash-auth.  '\
+            'Please run "pip install https://github.com/gaw89/dash-auth/tarball/master#egg=dash-auth-0.1.0" in order to proceed\n\n\n')
+
         self.project_name = self.options['<projectname>']
         self.project_root_directory = os.path.join(os.getcwd(), self.project_name)
 
