@@ -1,1 +1,1 @@
-include dash_admin/commands/boilerplate/*
+include dash_admin/commands/boilerplate
