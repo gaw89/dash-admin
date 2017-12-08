@@ -39,7 +39,7 @@ Note:
 ^^^^^
 
 You will also need to run
-``pip install https://github.com/gaw89/dash-auth/tarball/master#egg=dash-auth-0.1.0``
+``pip install https://github.com/gaw89/dash-auth/archive/v0.1.0.zip``
 in order to provide user authentication.
 
 .. _Dash: https://github.com/plotly/dash
